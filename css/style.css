@@ -1,0 +1,795 @@
+/*
+Theme Name: Portfolio Website
+Author: Jungeun NAM
+Date: Augst 2015
+Description: An attractive, simple custom CSS design for Portfolio Website of Jungeun Nam 
+*/
+
+
+
+/* ensure HTML5 semantic elements work in older browsers */
+header, section, footer, aside, nav, article, figure
+{
+    display: block;
+}
+
+
+
+/* reset */
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input,textarea, blockquote{
+    margin:0;
+    padding:0;
+}
+
+html, body{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f7f6f3;
+   /* background-image: url(../img/back2.png); 
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;*/
+}
+
+/* FONT */
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,700);
+
+p, table{
+    color: #5c5c5c;
+    line-height: 1.5;
+    font-size: 1em;
+}
+h1{
+    text-align: center;
+    font-size: 5em;
+    font-weight: 700;
+    letter-spacing: 8px;
+    padding: 1em 0;
+    margin: 2em 0;
+    color: #fff;
+    border: 4px double #fff;
+    
+}
+h3{
+    font-family:'Ubuntu', sans-serif;
+    font-weight:600;
+    text-align: center;
+    color: #5c5c5c;
+}
+.pagetitle{
+    font-size: 3em;
+    padding: 2em 0;
+    color: #5c5c5c;
+    border-bottom: 3px double #5c5c5c;
+    text-shadow: 1px 1px  0 #fff;   
+   /* text-shadow: -1px -1px  0 #d1cdca;  */ 
+}
+
+.subheading h3, .aboutimg h3{
+    padding: 1.5em 0;
+}
+
+
+
+/* background */
+
+.mTop20 {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+/*background: url(polina.jpg) no-repeat;
+background-size: cover;*/
+}
+
+
+/* NAVIGATION */    
+
+.navigation{
+
+    padding: 0 25px 0 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 50px;
+    line-height: 40px;
+}
+ul.navigation:hover {
+    padding: 0 25px 0 0;
+    margin: 0;
+    background-color: #000;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 50px;
+    line-height: 40px;
+}
+    
+.navigation li{
+    display: inline-block;
+    float: right;
+    padding: 5px 10px;
+}
+.navigation a:focus, .navigation a:hover{
+    text-decoration: none;
+    color: #f05454;
+    /* box-shadow: 0 2px 1px rgba(0,0,0,0.2); /* Modern Browsers */
+       /* -moz-box-shadow: 0 2px 1px rgba(0,0,0,0.2); /* legacy Mozilla */
+      /*  -webkit-box-shadow: 0 2px 1px rgba(0,0,0,0.2); /* legacy Safari */
+}
+.navigation a{
+    color: #000;
+}
+ul.navigation:hover a{
+    color: #fff;
+}
+ul.navigation a:hover{
+    color: #f05454;
+}
+    
+
+/* STRUCTURE */
+
+
+#slide1{
+    /*background-color: #d3e2de;*/
+     background-image: url(../img/j-m-w-turner-ulysses.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 30px;
+    box-shadow: 
+        inset 0px -11px 10px -10px #98a7a3;
+}
+#slide1{
+    /*background-image:
+    linear-gradient(
+     to right, 
+      #b9c9c8 , #d3e2de ,#d3e2de, #d3e2de, #d3e2de, #d3e2de, #b9c9c8 */
+    );
+}
+#slide2, #slide3, #slide4{
+    background-attachment: fixed;
+    width: 100%;
+    height:  auto;
+    position: relative;
+    padding: 30px;
+}
+
+/* SLIDE1 - index */
+
+
+
+/* SLIDE2 - ABOUT */
+#slide2{
+   clear: both;
+   width: 100%;
+   background-image: url(../img/back2.png); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   /* box-shadow: 0 5px 10px #000;
+    z-index: 10;*/
+}
+#about{
+   padding: 2em;
+   text-align: justify;
+   border-top: 3px double  #b4b4b4;
+   border-bottom: 3px double  #b4b4b4;
+}
+.aboutme{
+    font-size: 0.9em;
+}
+.aboutimg{
+    margin: 1em 0;
+}
+.aboutimg h3{
+    padding-bottom: 0;
+}
+.aboutimg p{
+    text-align: center;
+}
+.thumbnail{
+    border-style: none;
+    padding-top: 2em;
+    background-color: transparent;
+}
+.thumbnail img{
+    width: 50%;
+    border-radius: 50% 50%;  
+}
+@media screen and (max-width: 990px) {
+    .thumbnail img{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .thumbnail img{
+        width: 50%;
+    }
+}
+table{
+    margin: 0 auto;
+    font-size: 1em;
+    width: 70%;
+}
+@media screen and (max-width: 1400px) {
+    table {
+        width: 100%;
+    }
+}
+
+table td, table th{
+    padding: 0.5em 2em;
+    /*border: 1px solid #fff;*/
+}
+@media screen and (max-width: 1400px) {
+    table td, table th{
+        padding: 0.5em 1em;
+    }
+}
+table th{
+   background-color: #f05454;
+    color: #fff;
+}
+@media screen and (max-width: 1400px) {
+    table th{
+        font-size: 0.9em;
+    }
+}
+
+ /* SLIDE3 - PORTFOLIO */
+#slide3{
+    clear: both;
+    width: 100%;
+    background-image: url(../img/JMW-Turner-Snow-Storm-Steam-Boat-off-a-Harbours-Mouth-exhibited-1842-crop.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 3em;
+    
+/* inner shadow effects only top & bottom */
+    box-shadow: 
+        inset 0px 11px 15px -10px #000,
+        inset 0px -11px 10px -10px #000; 
+}
+#slide3 h3{
+    color: #fff;
+}
+#portfolio{
+    text-align: center;
+    padding-bottom: 
+        5em;
+}
+#portfolio img{
+    width: 100%;
+    margin: 10px;
+    box-shadow: 1px 0px 1px 1px #000;
+}
+.portlink{
+    display: block;
+    float: left;
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+}
+.portlink:hover .caption1{
+    position: relative;
+    visibility: visible;
+        -moz-transform: translateY(-70%);
+		-o-transform: translateY(-70%);
+		-webkit-transform: translateY(-70%);
+	transform: translateY(-70%);
+    background-color: rgba(0,0,0,0.6);
+    width: 25%;
+    height: auto;
+    position: absolute;
+    color: #ffffff;
+    z-index: 100;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s ;
+    font-size: 1.1em;
+    padding-left: 10px;
+}
+.caption1{
+    clear: both;
+    visibility: hidden;
+    background-color: rgba(0,0,0,0.6);
+    width: 25%;
+    height: 40px;
+    position: absolute;
+    margin-top: -50px;
+    padding-left: 10px;
+    color: #fff;
+    z-index: 100;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s ;
+    font-size: 1.1em;
+
+}
+.caption1 p{
+    color: #fff;
+    line-height: 35px;
+}
+
+ /* SLIDE4 - CONTACT */
+#slide4{
+    clear: both;
+    width: 100%;
+    background-image: url(../img/back2.png); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+   /* box-shadow: 0 5px 10px #000;
+    z-index: 10;*/
+}
+#contactfield{
+    padding-bottom: 5em;
+}
+#contactfield input{
+    margin: 7px 0 ;
+    height: 3em;
+    width: 30em;
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid #c9c6c6;
+    padding-left: 1em;
+}
+#contactfield textarea{
+    margin: 7px 0;
+    height: 20em;
+    width: 30em;
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid #c9c6c6;
+}
+#contactfield label{
+    float: left;
+    width: 10em;
+    margin: 7px 0 ;
+}
+legend{
+    border: none;
+}
+legend h3 {
+    font-size: 0.9em;
+}
+.submit{
+    border: 1px solid #f05454 !important;
+    color: #f05454;
+    background-color: transparent;
+}
+.submit:hover{
+    background-color: #f05454 !important;
+    color: #fff;
+    border: none !important;
+}
+footer{
+    text-align: center;
+    background-color:  #333;
+    color: #d6d4d4;
+    padding: 40px 0 ;
+}
+.button{
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    margin-left: -25px;
+    background-image: url(../img/arrow.png); 
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+/* WEB PORTFOLIO PAGE */
+
+.webthumb{
+    clear: both;
+    margin: 1em 0 ;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+.webthumb img{
+    width:  100%;
+    text-align: center;
+    box-shadow: 1px 1px 1px #cdcdcd;
+    margin-bottom: 1em;
+}
+@media screen and (max-width: 767px) {
+    .webthumb img{
+        width:  50%;
+        box-shadow: 1px 1px 1px #cdcdcd;
+    }
+}
+@media screen and (max-width: 525px) {
+    .webthumb img{
+        width:  100%;
+        box-shadow: 1px 1px 1px #cdcdcd;
+    }
+}
+.webdes{
+    text-align: left;
+    margin: 1em;
+    font-size: 1em;
+    color: #5c5c5c;
+    line-height: 2em;
+    list-style-type: disc;
+}
+
+/* ILLUSTRATION PORTFOLIO PAGE */
+
+.og-close {
+    z-index: 100;
+}
+.og-grid li>a img{
+    width: 100%;
+}
+.og-fullimg{
+    width: 60%;
+}
+.og-details{
+    width:  40%;
+}
+@media (max-width: 767px){
+    .og-fullimg {
+        height: 65%;
+        width: 100%;
+    }
+}
+@media (max-width: 767px){
+    .og-details{
+        width: 100%;
+    }
+}   
+
+.elastislide-carousel {
+    height:30%;
+}
+
+@media (max-width: 767px){
+    .elastislide-carousel{
+        height: 15%;
+    }
+}
+
+.og-expander {
+    height: 750px !important;
+}
+@media (max-width: 767px){
+    .og-expander {
+        height: 950px !important;
+    }
+}
+
+    
+/* Gamma Gallery Style */
+
+.gamma-container {
+	min-height: 200px;
+    margin-top: 3em;
+}
+
+.gamma-gallery {
+	list-style-type: none;
+	padding: 0;
+	margin: 4em 0;
+	width: 100%;
+	position: relative;
+}
+
+/* http://nicolasgallagher.com/micro-clearfix-hack/ */
+.gamma-gallery:before,
+.gamma-gallery:after {
+    content: " ";
+    display: table;
+}
+
+.gamma-gallery:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+.gamma-gallery {
+    *zoom: 1;
+}
+ */
+
+.gamma-gallery li {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	float: left;
+	padding: 4px;
+}
+
+.gamma-gallery li img {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	display: block;
+}
+
+.gamma-description {
+	background: #fff;
+	background: rgba(255, 255, 255, 0.6);
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	bottom: 20px;
+	right: 20px;
+	text-align: center;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	-webkit-transition: opacity 0.4s ease-in-out;
+	-moz-transition: opacity 0.4s ease-in-out;
+	-ms-transition: opacity 0.4s ease-in-out;
+	-o-transition: opacity 0.4s ease-in-out;
+	transition: opacity 0.4s ease-in-out;
+}
+
+.no-touch .gamma-gallery li:hover .gamma-description {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	opacity: 1;
+}
+ 
+.gamma-description:before {
+	content: '';
+	height: 100%;
+}
+
+.gamma-description:before,
+.gamma-description h3 {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.gamma-description h3 {
+	width: 100%;
+	padding: 0 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+
+.gamma-buttons {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 10001;
+}
+
+.gamma-buttons button {
+	float: left;
+	background: #333;
+	color: #fff;
+	display: block;
+	width: 30px;
+	height: 30px;
+	font-size: 14px;
+	margin-left: 5px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+.gamma-buttons button:before,
+.gamma-nav span:before {
+	font-family: 'entypo-selected';
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	display: block;
+	text-align: center;
+	opacity: 0.7;
+	outline: none;
+}
+
+.no-touch .gamma-buttons button:hover {
+	background: #666;
+}
+
+button.gamma-btn-close:before {
+	content: '\2715';
+}
+
+button.gamma-btn-ssplay:before {
+	content: '\25b6';
+}
+
+button.gamma-btn-sspause:before {
+	content: '\2389';
+}
+
+.gamma-single-view {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;	
+	z-index: 10000;
+	text-align: center;
+	display:none;
+    background: rgba(0,0,0,0.7);
+}
+
+.gamma-overlay {
+	background: #000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	display: none;
+	z-index: 9999;
+}
+
+.gamma-single-view img {
+	position: absolute;
+	cursor: pointer;
+}
+
+.gamma-description-wrapper {
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 10;
+	padding: 5px 0;
+}
+
+.gamma-single-view .gamma-description {
+	background: transparent;
+	position: relative;
+	bottom: auto;
+	left: auto;
+	right: auto;
+	top: auto;
+}
+
+.gamma-single-view .gamma-description h3 {
+	font-size: 15px;
+	padding: 5px 0;
+	color: #fff;
+}
+
+.gamma-nav span {
+	position: absolute;
+	display: block;
+	width: 20px;
+	height: 38px;
+	top: 50%;
+	margin-top: -19px;
+	left: 20px;
+	cursor: pointer;
+	text-align: center;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.gamma-nav span.gamma-next {
+	left: auto;
+	right: 20px;
+}
+
+.gamma-nav span:before {
+	color: #fff;
+	opacity: 0.7;
+	font-size: 40px;
+}
+
+.gamma-nav span:hover:before {
+	opacity: 1;
+}
+
+.gamma-nav span:before {
+	display: block;
+	margin: 0;
+	width: auto;
+}
+
+.gamma-nav span.gamma-prev:before {
+	content: '\e75d';
+}
+
+.gamma-nav span.gamma-next:before {
+	content: '\e75e';
+}
+
+.gamma-img-fly {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+}
+
+/* Loaders */
+
+.gamma-loading {
+	background: transparent url(../images/loader_light.gif) no-repeat center center;
+}
+
+.gamma-single-view.gamma-loading {
+	background: transparent url(../images/loader_dark.gif) no-repeat center center;
+}
+
+
+/* Make some things unselectable. Remove where selection is needed: */
+
+.gamma-container img,
+.gamma-nav span,
+.gamma-buttons button,
+.gamma-description-wrapper,
+.gamma-description,
+.gamma-description h3 {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+@media screen and (max-width: 750px) {
+
+	.gamma-description {
+		top: 10px;
+		left: 10px;
+		bottom: 10px;
+		right: 10px;
+	}
+
+	.gamma-description h3 {
+		font-size: 14px;
+		padding: 0 5px;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+
+	.gamma-buttons {
+		float: left;
+		clear: both;
+	}
+
+}
+
