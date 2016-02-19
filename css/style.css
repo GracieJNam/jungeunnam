@@ -390,10 +390,21 @@ legend h3 {
     border: none !important;
 }
 footer{
+    width: 100%;
     text-align: center;
     background-color:  #333;
     color: #d6d4d4;
     padding: 40px 0 ;
+}
+
+
+/*MAKE FOOTER SRICK TO THE BOTTOM OF A PAGE*/
+
+
+.container-fluid{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
 }
 .button{
     display: block;
