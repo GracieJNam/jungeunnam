@@ -797,10 +797,31 @@ button.gamma-btn-sspause:before {
 .popup-gallery{
     margin-top: 30px;
     margin-bottom: 30px;
+    text-align: center;
 }
 .popup-gallery .img_wrap{
     height: 300px;
     width: 300px;
+    overflow: hidden;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 750px) {
+    .popup-gallery .img_wrap{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+    
+
+@media screen and (max-width: 500px) {
+    .popup-gallery .img_wrap{
+    height: 250px;
+    width: 100%;
     overflow: hidden;
     float: left;
     margin-right: 5px;
