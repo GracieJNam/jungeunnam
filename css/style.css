@@ -793,3 +793,17 @@ button.gamma-btn-sspause:before {
 
 }
 
+/* GRAPHIC POLTFOLIO PAGE */
+.popup-gallery{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.popup-gallery .img_wrap{
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+    
