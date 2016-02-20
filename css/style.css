@@ -262,13 +262,13 @@ table{
 }
 
 @media screen and (max-width: 767px) {
-    table {
-        width: 100%;
-    }
-}
-@media screen and (max-width: 767px) {
     #skillbox td {
         font-size: 12px;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 0;
+        padding-right: 0;
+        width: auto;
     }
 }
 table td, table th{
@@ -281,7 +281,7 @@ table td, table th{
     }
 }
 @media screen and (max-width: 600px) {
-    table td, table th{
+    table th{
         padding-top: 0.5em;
         padding-bottom: 0.5em;
         padding-left: 0.5;
@@ -294,6 +294,7 @@ table td, table th{
         padding-bottom: 0.5em;
         padding-left: 0;
         padding-right: 0;
+        width: 1.5em;
     }
 }
 table th{
