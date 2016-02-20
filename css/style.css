@@ -266,6 +266,11 @@ table{
         width: 100%;
     }
 }
+@media screen and (max-width: 767px) {
+    #skillbox td {
+        font-size: 12px;
+    }
+}
 table td, table th{
     padding: 0.5em 2em;
     /*border: 1px solid #fff;*/
@@ -280,6 +285,14 @@ table td, table th{
         padding-top: 0.5em;
         padding-bottom: 0.5em;
         padding-left: 0.5;
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    table td{
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 0;
         padding-right: 0;
     }
 }
