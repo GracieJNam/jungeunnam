@@ -338,7 +338,7 @@ table th{
 .portlink{
     display: block;
     float: left;
-    width: 25%;
+    width: 50%;
     height: auto;
     overflow: hidden;
 }
@@ -350,7 +350,7 @@ table th{
 		-webkit-transform: translateY(-70%);
 	transform: translateY(-70%);
     background-color: rgba(0,0,0,0.6);
-    width: 25%;
+    width: 50%;
     height: auto;
     position: absolute;
     color: #ffffff;
@@ -364,7 +364,7 @@ table th{
     clear: both;
     visibility: hidden;
     background-color: rgba(0,0,0,0.6);
-    width: 25%;
+    width: 50%;
     height: 40px;
     position: absolute;
     margin-top: -50px;
