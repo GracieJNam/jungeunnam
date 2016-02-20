@@ -199,6 +199,11 @@ ul.navigation a:hover{
    border-top: 3px double  #b4b4b4;
    border-bottom: 3px double  #b4b4b4;
 }
+@media screen and (max-width: 767px) {
+    #about{
+        padding: 0.5em 0;
+    }
+}
 .aboutme{
     font-size: 0.9em;
 }
@@ -241,6 +246,11 @@ table{
     }
 }
 
+@media screen and (max-width: 767px) {
+    table {
+        width: 100%;
+    }
+}
 table td, table th{
     padding: 0.5em 2em;
     /*border: 1px solid #fff;*/
@@ -248,6 +258,14 @@ table td, table th{
 @media screen and (max-width: 1400px) {
     table td, table th{
         padding: 0.5em 1em;
+    }
+}
+@media screen and (max-width: 600px) {
+    table td, table th{
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 0.5;
+        padding-right: 0;
     }
 }
 table th{
@@ -360,6 +378,12 @@ table th{
     border: 1px solid #c9c6c6;
     padding-left: 1em;
 }
+@media screen and (max-width:  767px) {
+    #contactfield input{
+        width: 100%;
+    }
+}
+
 #contactfield textarea{
     margin: 7px 0;
     height: 20em;
@@ -368,6 +392,12 @@ table th{
     border-style: none;
     border: 1px solid #c9c6c6;
 }
+@media screen and (max-width: 767px) {
+    #contactfield textarea{
+        width: 100%;
+    }
+}
+
 #contactfield label{
     float: left;
     width: 10em;
