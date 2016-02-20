@@ -179,7 +179,22 @@ ul.navigation a:hover{
 
 /* SLIDE1 - index */
 
-
+@media screen and (max-width: 450px){
+    .webtitle{ 
+        font-size: 24px;
+    }
+}
+h1{
+    text-align: center;
+    font-size: 5em;
+    font-weight: 700;
+    letter-spacing: 8px;
+    padding: 1em 0;
+    margin: 2em 0;
+    color: #fff;
+    border: 4px double #fff;
+    
+}
 
 /* SLIDE2 - ABOUT */
 #slide2{
