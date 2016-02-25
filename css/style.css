@@ -28,7 +28,8 @@ html, body{
     margin: 0;
 }
 body{
-    
+   color: #F2EEE7;
+    font-size: 14px;
     /*background-color: #f7f6f3;*/
    background-image: url(../img/noisy-1.png);
    background-repeat: repeat;
@@ -43,7 +44,7 @@ body{
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,700);
 
 p, table{
-    color: #5c5c5c;
+    color: #989287;
     line-height: 1.5;
     font-size: 1em;
 }
@@ -101,7 +102,8 @@ background-size: cover;*/
 /* NAVIGATION */    
 
 .navigation{
-
+    background-image: url(../img/back-slide3.png);
+    background-repeat: repeat;
     padding: 0 25px 0 0;
     margin: 0;
     position: fixed;
@@ -114,8 +116,6 @@ background-size: cover;*/
 ul.navigation:hover {
     padding: 0 25px 0 0;
     margin: 0;
-    background-color: #000;
-    opacity: 0.7;
     position: fixed;
     top: 0;
     z-index: 999;
@@ -131,19 +131,19 @@ ul.navigation:hover {
 }
 .navigation a:focus, .navigation a:hover{
     text-decoration: none;
-    color: #f05454;
+    color: #f05454; 
     /* box-shadow: 0 2px 1px rgba(0,0,0,0.2); /* Modern Browsers */
        /* -moz-box-shadow: 0 2px 1px rgba(0,0,0,0.2); /* legacy Mozilla */
       /*  -webkit-box-shadow: 0 2px 1px rgba(0,0,0,0.2); /* legacy Safari */
 }
 .navigation a{
-    color: #000;
-}
-ul.navigation:hover a{
     color: #fff;
 }
+/*ul.navigation:hover a{
+    color: 4B4038;
+}*/
 ul.navigation a:hover{
-    color: #f05454;
+    color: 4B4038;
 }
     
 
@@ -152,11 +152,12 @@ ul.navigation a:hover{
 
 #slide1{
     /*background-color: #d3e2de;*/
-     background-image: url(../img/j-m-w-turner-ulysses.jpg);
-    -webkit-background-size: cover;
+     background-image: url(../img/back-slide3.png);
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
+    background-repeat: repeat;
     background-attachment: fixed;
     width: 100%;
     height: 100%;
@@ -203,7 +204,7 @@ h1{
 #slide2{
    clear: both;
    width: 100%;
-   background-image: url(../img/back2.png); 
+   /*background-image: url(../img/back2.png); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -215,8 +216,10 @@ h1{
 #about{
    padding: 2em;
    text-align: justify;
-   border-top: 3px double  #b4b4b4;
-   border-bottom: 3px double  #b4b4b4;
+   border-bottom: 1px solid #382719;
+   box-shadow: 0 2px 0 #54463D;
+   /*border-top: 3px double  #b4b4b4;
+   border-bottom: 3px double  #b4b4b4;*/
 }
 @media screen and (max-width: 767px) {
     #about{
@@ -393,7 +396,7 @@ table th{
 #slide4{
     clear: both;
     width: 100%;
-    background-image: url(../img/back2.png); 
+   /* background-image: url(../img/back2.png); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -409,9 +412,12 @@ table th{
     margin: 7px 0 ;
     height: 3em;
     width: 30em;
-    background-color: transparent;
+    background-image: url(../img/background-input.png);
+ ;
+    box-shadow: inset 0 0 7px #2c241f;
+    -moz-box-shadow:    inset 0 0 7px #2c241f;
+    -webkit-box-shadow: inset 0 0 7px #2c241f;
     border-style: none;
-    border: 1px solid #c9c6c6;
     padding-left: 1em;
 }
 @media screen and (max-width:  767px) {
@@ -424,9 +430,11 @@ table th{
     margin: 7px 0;
     height: 20em;
     width: 30em;
-    background-color: transparent;
+    background-image: url(../img/background-input.png);
+    box-shadow: inset 0 0 7px #2c241f;
+    -moz-box-shadow:    inset 0 0 7px #2c241f;
+    -webkit-box-shadow: inset 0 0 7px #2c241f;
     border-style: none;
-    border: 1px solid #c9c6c6;
 }
 @media screen and (max-width: 767px) {
     #contactfield textarea{
@@ -446,22 +454,26 @@ legend h3 {
     font-size: 0.9em;
 }
 .submit{
+    clear: both;
     border: 1px solid #f05454 !important;
     color: #f05454;
+    background-image: none !important;
     background-color: transparent;
+    box-shadow: none !important;
+    padding-left: 0 !important;
 }
 .submit:hover{
     background-color: #f05454 !important;
-    color: #fff;
+    color: #F2EEE7;
     border: none !important;
 }
+
 footer{
     width: 100%;
     text-align: center;
-    background-color:  #333;
-    color: #d6d4d4;
-    padding: 40px 0 ;
-}
+    background-image: url(../img/back-footer.png);
+    background-repeat: repeat;
+    padding: 140px 0 ;
 
 /*MAKE FOOTER SRICK TO THE BOTTOM OF A PAGE*/
 
@@ -517,7 +529,7 @@ footer{
     text-align: left;
     margin: 1em 0 1em 3em;
     font-size: 1em;
-    color: #5c5c5c;
+    color: #989287;
     line-height: 2em;
     list-style-type: disc;
 }
