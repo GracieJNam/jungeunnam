@@ -62,14 +62,15 @@ h3{
     font-family:'Ubuntu', sans-serif;
     font-weight:600;
     text-align: center;
-    color: #5c5c5c;
+    color: #f2eee7;
 }
 .pagetitle{
     font-size: 3em;
     padding: 2em 0;
-    color: #5c5c5c;
-    border-bottom: 3px double #5c5c5c;
-    text-shadow: 1px 1px  0 #fff;   
+    color: #f2eee7;
+    border-bottom: 1px solid #382719;
+    box-shadow: 0 2px 0 #54463D;
+    text-shadow: 2px 1px  0 #392610;   
    /* text-shadow: -1px -1px  0 #d1cdca;  */ 
 }
 
@@ -202,7 +203,7 @@ h1{
 #slide2{
    clear: both;
    width: 100%;
-  /* background-image: url(../img/back2.png); 
+   background-image: url(../img/back2.png); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
