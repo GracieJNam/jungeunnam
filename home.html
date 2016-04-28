@@ -20,14 +20,25 @@
 </head>
 <body>
  <header>
-  <nav>
-      <ul class="navigation">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header"> 
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navigation">
           <li data-slide="1"><a href="#">Home</a></li>
           <li data-slide="2"><a href="#">About</a></li>
           <li data-slide="3"><a href="#">Portfolio</a></li>
           <li data-slide="4"><a href="#">Contact</a></li>
       </ul>
-  </nav>
+      </div>
+      </div>
+    </div>
+</nav>
  </header>  
    <div class="main">
       <div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
@@ -44,22 +55,27 @@
                 </section>--> <!-- end video -->
                   <!--<div class="col-md-6 slide-1-logo">
                       <img src="img/logo.png" class="maining">
-                  </div>-->
-                  <div class="col-sm-2"></div>
-                  <div class="col-sm-8">
-                     <h1 class="webtitle">JUNGEUN NAM<br />
-                      </h1>
                   </div>
-                  <div class="col-sm-2"></div>
+                  <div class="col-sm-2"></div>-->
+                  <div class="col-sm-12 maintitle">
+                   
+                     <div class="webtitle">JUNGEUN NAM<br />
+                      </div>
+                      <div class="webtitle-1">WEB DEVELOPER & ILLUSTRATOR</div>
+                      
+                  </div>
+                  <!--<div class="col-sm-2"></div>-->
               </div>
           </div>
           <a class="button" data-slide="2" title=""></a>
       </div>
       
       <div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
+          <div class="container-fluid">
+              <div class="row">
            <div class="col-sm-4">
               <div class='thumbnail'>
-               <img src="img/jungeun.jpg">
+               <img src="img/pro.jpg">
                <div class="aboutimg"><h3>JUNGEUN NAM</h3>
                <p><b><i>Web Designer &amp; Deverloper</i></b><br /><br />
                   Web Design<br />
@@ -188,6 +204,8 @@
            </div> 
         
           <!--<a class="button" data-slide="3" title=""></a>-->&nbsp;
+            </div> 
+        </div>
       </div>
       
       <div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
@@ -199,37 +217,46 @@
                         <header class="subheading">
                             <h3> PORTFOLIO</h3>
                         </header>
-                           <div class="col-sm-6 col-xs-12">
+                           <div class="col-sm-12 col-xs-12">
+                           <a href="pages/web.html">
                             <div class="portlink">
-                             <a href="pages/web.html"><img src="img/Home%20.jpg">
+                            <h4>WEB DESIGN</h4>
+                             <!--<img src="img/Home%20.jpg">
                                  <div class="caption1">  
                                     <p>WEBSITES DESIGN &amp; DEVELOPMENT</p>  
-                                 </div> 
-                             </a>
+                                 </div>-->
                             </div>
+                            </a>
+                            <a href="pages/illustration.html">
                             <div class="portlink">
-                             <a href="pages/illustration.html"><img src="img/illust/Cereal%20.jpg">
+                             <h4>ILLUSTRATION</h4>
+                             <!--<img src="img/Home%20.jpg">
                                  <div class="caption1">  
-                                    <p>ILLUSTRATION</p>  
-                                 </div> 
-                             </a>
+                                    <p>WEBSITES DESIGN &amp; DEVELOPMENT</p>  
+                                 </div> -->
                             </div>
+                           </a>
+                        
+                     
+                          <a href="pages/graphic.html">
+                            <div class="portlink">
+                            <h4>GRAPHIC DESIGN</h4>
+                             <!--<img src="img/Home%20.jpg">
+                                 <div class="caption1">  
+                                    <p>WEBSITES DESIGN &amp; DEVELOPMENT</p>  
+                                 </div> -->
+                            </div>
+                            </a>
+                            <a href="pages/croqui.html">
+                            <div class="portlink">
+                             <h4>CROQUI</h4>
+                             <!--<img src="img/Home%20.jpg">
+                                 <div class="caption1">  
+                                    <p>WEBSITES DESIGN &amp; DEVELOPMENT</p>  
+                                 </div> -->
+                            </div>
+                           </a>
                         </div>
-                       <div class="col-sm-6 col-xs-12">
-                            <div class="portlink">
-                             <a href="pages/graphic.html"><img src="img/Home%20.jpg">
-                             <div class="caption1">  
-                                    <p>GRAPHIC DESIGNS</p>  
-                             </div> 
-                             </a>
-                            </div>
-                            <div class="portlink">
-                             <a href="pages/croqui.html"><img src="img/croqui/dc2.jpg">
-                             <div class="caption1">  
-                                    <p>CROQUIS</p>  
-                             </div> 
-                             </a>
-                            </div>
                      </section>
                      </div>
                  </div>
@@ -280,17 +307,25 @@
                  </div>
               </div>
           </div>
+          <p class="button-letter">TOP</p>
         <a class="button" data-slide="1" title=""></a>
          
       </div>
     
        
    </div>
-<footer> 
-   <header>
-       <p class="copyright">&copy; 2015 Website designed and coded by Jungeun Nam</p>
-   </header>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</footer>
+     <div class="slide" id="slide5" data-slide="5" data-stellar-background-ratio="0.5">
+          <div class="container-fluid">
+              <div class="row">
+              <footer> 
+               <header>
+                   <p class="copyright">&copy; 2015 Website designed and coded by Jungeun Nam</p>
+               </header>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">  </script>
+                </footer>
+              </div>
+         </div>
+    </div>
+         
 </body>
 </html>
