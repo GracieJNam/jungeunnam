@@ -1171,10 +1171,10 @@ button.gamma-btn-sspause:before {
     transition-duration: 0.5s;
 
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1633px) {
     .popup-gallery .img_wrap{
         height: 25%;
-        width: 23%;
+        width: 24%;
         overflow: hidden;
         text-align: center;
         margin-right: 5px;
@@ -1182,15 +1182,13 @@ button.gamma-btn-sspause:before {
 }    
 @media screen and (max-width: 750px) {
     .popup-gallery .img_wrap{
-        height: 300px;
-        width: 100%;
+        height: 200px;
+        width: 48%;
         overflow: hidden;
         text-align: center;
         margin-right: 5px;
         margin-bottom: 5px;
 }
-    
-
 @media screen and (max-width: 425px) {
     .popup-gallery .img_wrap{
         height: 130px;
