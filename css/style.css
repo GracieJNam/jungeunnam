@@ -669,7 +669,7 @@ legend h3 {
 #slide5{
     clear: both;
     width: 100%;
-    height: 400px;
+    height: 300px;
     position: relative;
     background-image: url(../img/back-footer.png);
 /*  -webkit-background-size: cover;
@@ -753,9 +753,11 @@ footer p{
     animation:spin 4s linear infinite;
 }
 
+/* button action */
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
 .button-letter{
     text-align: center;
     margin-bottom: 50px;
