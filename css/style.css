@@ -320,9 +320,16 @@ background-size: cover;
         font-size: 3em;
     }
     #slide1{
-        height: 500px; 
+        height: 450px; 
     }
 }
+@media screen and (max-width: 320px){
+
+    #slide1{
+        height: 400px; 
+    }
+}
+
 /* HOMEPAGE TITLE UNDERLINK */
 .webtitle:before {
   content : "";
@@ -530,7 +537,7 @@ table th{
 }
 @media screen and (max-width:  1110px) {
     .portlink{
-        width: 45%;
+        width: 44%;
     }
 }
 
@@ -691,6 +698,11 @@ legend h3 {
 @media screen and (max-width:425px){
     #slide5{
         height: 285px;
+    }
+}
+@media screen and (max-width:320px){
+    #slide5{
+        height: 245px;
     }
 }
 
