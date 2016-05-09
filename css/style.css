@@ -665,9 +665,9 @@ legend h3 {
     color: #F2EEE7;
     border: none !important;
 }
-@media screen and (max-width:1180px){
-    .submit{ 
-        margin-left:  0 !important;
+@media screen and (max-width: 1180px) {
+    .submit{
+        margin-left: 0em !important; 
     }
 }
 
@@ -712,12 +712,11 @@ legend h3 {
     }
 }
 
-
 footer p{
     text-align: center;
-    position: absolute;
     width: 100%;
-    bottom: 150px;
+    bottom: 100px;
+    padding-top: 100px;
     z-index: -49;
     
 }
