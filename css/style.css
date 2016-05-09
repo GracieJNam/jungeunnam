@@ -658,11 +658,17 @@ legend h3 {
     background-color: transparent;
     box-shadow: none !important;
     padding-left: 0 !important;
+    margin-left: 10em !important;
 }
 .submit:hover{
     background-color: #f05454 !important;
     color: #F2EEE7;
     border: none !important;
+}
+@media screen and (max-width:1180px){
+    .submit{ 
+        margin-left:  0 !important;
+    }
 }
 
 /* slide5*/
@@ -709,7 +715,7 @@ legend h3 {
 
 footer p{
     text-align: center;
-    position: fixed;
+    position: absolute;
     width: 100%;
     bottom: 150px;
     z-index: -49;
@@ -775,7 +781,6 @@ footer p{
 .webthumb img{
     width:  100%;
     text-align: center;
-    box-shadow: 1px 1px 1px #cdcdcd;
     margin-bottom: 1em;
 }
 @media screen and (max-width: 767px) {
