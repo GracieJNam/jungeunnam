@@ -279,11 +279,11 @@ background-size: cover;
     letter-spacing: 8px;
     padding: 1em 0 0 0;
     margin: 2em 0 0 0;
-    color: #413021;
-    /*opacity: 0.5;*/
+    color: #fff;
+    opacity: 0.5;
     position: relative;
     filter: alpha(opacity=50); /* For IE8 and earlier */
-    text-shadow: 1px -1px  0 #000; 
+    text-shadow: 1px -1px  0 #e5dbd0; 
     z-index: -999;
     
    /* border: 4px double #fff;
@@ -369,10 +369,10 @@ background-size: cover;
     letter-spacing: 4px;
     padding: 1em 0 0 0;
     margin:0;
-    color: #2c241f;
+    color: #fff;
     opacity: 0.5;
     filter: alpha(opacity=50); /* For IE8 and earlier */
-    text-shadow: 1px -1px  0 #000; 
+    text-shadow: 1px -1px  0 #e5dbd0; 
 }
 @media screen and (max-width:425px){
     .webtitle-1{
