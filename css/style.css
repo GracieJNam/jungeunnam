@@ -220,6 +220,10 @@ background-size: cover;
     margin-left: 5px;
     border-radius: 0;
     height: 40px;
+    
+}
+.navbar-inverse .navbar-toggle .icon-bar{
+    background-color: #2c241f;
 }
 .navbar-inverse .navbar-toggle{
     border-color: #4b3b31;
