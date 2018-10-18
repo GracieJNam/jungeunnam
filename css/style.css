@@ -190,7 +190,7 @@ background-size: cover;
      opacity: 0.4;
 }
 #nav2 .navbar-inverse .navbar-nav>.active>a, #nav2 .navbar-inverse .navbar-nav>.active>a:focus, #nav2 .navbar-inverse .navbar-nav>.active>a:hover{
-    background-image: url(../img/back-middle.png);
+    background-image: url(../img/noisy-1.png);
     background-repeat: repeat;
     opacity: 0.7;
 }
