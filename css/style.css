@@ -148,9 +148,6 @@ background-size: cover;
 .navbar-inverse .navbar-nav>li>a {
     color: #816f64;
 }
-.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus{
-    color: #F2EEE7;
-}
 .navbar-inverse .navbar-collapse {
     border: none;
 }
@@ -200,7 +197,7 @@ background-size: cover;
     color: #816f64;
 }
 #nav2 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #2c241f;
+    color: #fff;
 }
 #nav2 .navbar-inverse .navbar-collapse {
     border: none;
