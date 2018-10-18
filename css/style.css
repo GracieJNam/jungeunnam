@@ -187,7 +187,7 @@ background-size: cover;
 #nav2 .navbar-inverse .navbar-nav>li:hover{ 
      background-image: url(../img/noisy-1.png);
      background-repeat: repeat;
-     opacity: 0.4;
+     opacity: 0.1;
 }
 #nav2 .navbar-inverse .navbar-nav>.active>a, #nav2 .navbar-inverse .navbar-nav>.active>a:focus, #nav2 .navbar-inverse .navbar-nav>.active>a:hover{
     background-image: url(../img/noisy-1.png);
