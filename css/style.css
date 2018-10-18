@@ -69,8 +69,9 @@ h3{
     font-size: 3em;
     padding: 2em 0;
     color: #f2eee7;
-    border-bottom: 2px solid #fff;
-    box-shadow: 0 1px 0 #e5dbd0;
+    border-bottom: 2px solid #2c241f;
+    box-shadow: 0 1px 0 #000;
+    opacity: 0.2;
    /* text-shadow: 2px 1px  0 #392610;   
     text-shadow: -1px -1px  0 #d1cdca;  */
 }
