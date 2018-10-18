@@ -223,7 +223,7 @@ background-size: cover;
 }
 .navbar-inverse .navbar-toggle{
     border-color: #4b3b31;
-    background-image: url(../img/noisy-1.png);
+    background-image: url(../img/back-middle.png);
     background-repeat: repeat;
 }
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
