@@ -1048,7 +1048,7 @@ button.gamma-btn-sspause:before {
 	top: auto;
 }
 
-.gamma-single-view .gamma-description h3 {
+#slide3 .gamma-single-view .gamma-description h3 {
 	font-size: 15px;
 	padding: 5px 0;
 	color: #fff;
