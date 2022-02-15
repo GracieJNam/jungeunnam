@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Free hosting, web host free, free websites hosting, freewebsite</title>
+        <title>Free hosting, web host free, free websites hosting, freewebsites</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="content-language" content="en">
         <meta name="robots" content="noindex">
